@@ -1,0 +1,68 @@
+
+
+@media(max-width: 991px) {
+
+
+	
+	.sin-fact > span {
+		font-size: 50px;
+	}
+	.sin-fact {
+		width: 16%;
+	}
+	#footer .social-icons {
+		margin-left: 295px;
+	}
+
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+	#main_nav li a {
+		font-size: 11px;
+		padding: 6px 10px;
+	}
+	.sider_text .first_heading {
+		font-size: 48px;
+	}
+	.slider_divided {
+		background: #9d7d56;
+		height: 1px;
+		width: 100%;
+		margin-left: 0;
+		margin-bottom: 10px;
+	}
+
+	.sider_text p {
+		font-size: 12px;
+	}
+	.nivoSlider img  {
+		height: 430px !important;
+	}
+	i.about_icon {
+		font-size: 37px;
+	}
+	.about_inner p {
+		font-size: 12px;
+	}
+	.sin-fact > span {
+		font-size: 35px;
+	}
+	.count-badge {
+		font-size: 13px;
+	}
+	.sin-fact ,
+	.client_item
+	{
+		width: 100%;
+	}
+	.sin-fact{
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	#footer .social-icons {
+		margin-left: 180px;
+	}
+
+}

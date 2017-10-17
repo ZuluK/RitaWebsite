@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+a:focus {outline: none;}
+
+body {background-color: #ccc;}
+
+#gridcontainer { 
+	width: 681px;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+	position:relative; margin-left: 3px;margin-top:0px;} 
+
+.rowcolumn {
+	float: left; /* since this element is floated, a width must be given */
+	margin: 0 7px 7px 0; /* margin keeps the content of the div away from the edges */
+	width: 320px; height: 165px;
+	position:relative; left: 14px;top:-2px;
+}
+
+#row1column1 {background: url(../images/homepg-grid-active-state-sprite.jpg) 0px 0px;}
+#row1column2 {background: url(../images/homepg-grid-active-state-sprite.jpg) 337px 0px;}
+#row2column1 {background: url(../images/homepg-grid-active-state-sprite.jpg) 0px 337px;}
+#row2column2 {background: url(../images/homepg-grid-active-state-sprite.jpg) 337px 337px;}
+#row3column1 {background: url(../images/homepg-grid-active-state-sprite.jpg) 0px 674px;}
+#row3column2 {background: url(../images/homepg-grid-active-state-sprite.jpg) 337px 674px;}
+
+a {text-decoration:none;	color: #fff;}
+
+a div#row1column1:hover {background: url(../images/homepg-grid-hover-state-sprite.jpg) 0px 0px;}
+a div#row1column2:hover {background: url(../images/homepg-grid-hover-state-sprite.jpg) 337px 0px;}
+a div#row2column1:hover {background: url(../images/homepg-grid-hover-state-sprite.jpg) 0px 337px;}
+a div#row2column2:hover {background: url(../images/homepg-grid-hover-state-sprite.jpg) 337px 337px;}
+a div#row3column1:hover {background: url(../images/homepg-grid-hover-state-sprite.jpg) 0px 674px;}
+a div#row3column2:hover {background: url(../images/homepg-grid-hover-state-sprite.jpg) 337px 674px;}
+
+.rounded { -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+
+.widget {float: left; position: relative; }
+          
+.overlay { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url(../images/black75.png); background: rgba(0,0,0,0.3);text-align: center; }
+           
+.widget-button {position: relative; background:#7dff00 rgba(0,0,0,0.3); color: #060; padding: 5px 10px; text-decoration: none; text-transform: uppercase;}	
+.widget-button:link {background:#7dff00; color: #060; /* border: 2px solid #060;*/}
+.widget-button:hover {background:#000; color: #7dff00; border: 2px solid #fff;}

@@ -1,0 +1,39 @@
+html {margin: 0; padding: 0;}
+
+body {margin: 0; padding: 0;}
+
+#rnrContent {width: 960px; margin-left: auto; margin-right: auto;}
+
+#mainNav { border-bottom: thin #232a37 solid; margin-top: 15px; }
+a.navlinks { color: #232a37; font-size:16px; font-weight:thin; letter-spacing: .0325em;  font-size: 80%; font-family: arial; text-decoration: none; text-transform: uppercase;}
+a.navlinks:link { color: #232a37; font-weight: thin; letter-spacing: .0325em; text-decoration: none; font-size: 80%;text-transform: uppercase;}
+a.navlinks:hover { color: #777777; font-weight: thin; letter-spacing: .0325em; border-top:thin solid #777777; font-size: 80%;text-transform: uppercase; padding-top: 5px;}
+a.navlinks:visted { color: #232a37; font-weight: thin; letter-spacing: .0325em;  text-decoration: none; font-size: 80%;text-transform: uppercase; }
+a.current { color: #777777; font-size:16px; font-weight:thin; letter-spacing: .0325em;  font-size: 80%; font-family: arial; text-decoration: none; text-transform: uppercase; border-top:thin solid #777777;  padding-top: 5px;}
+
+a.aqualinks2 { color: #777777; font-size:10px; font-family: arial; text-decoration: none;}
+a.aqualinks2:link { color: #777777; text-decoration: none;}
+a.aqualinks2:hover { color: #232a37; text-decoration: none; border-top:thin solid #232a37; padding-top:5px;}
+a.aqualinks2:visted { color: #232a37; text-decoration: none;}
+
+a.current2 {color: #232a37; text-decoration: none; border-top:thin solid #232a37; padding-top:5px;}
+
+#masthead {border-bottom: thin #232a37 solid; }
+
+#currentDate {width: 300px; height: 30px; color: #232a37; position: relative; letter-spacing: .0325em; right: -300px; top: 59px; text-align: right; font-size: 80%; font-family: sans-serif; text-transform: uppercase;}
+
+#thumbnails {
+	padding: 10px;
+	margin-bottom: 10px;
+	width: 450px;
+	height: 275px;
+	
+
+
+}
+
+#thumbnails img {padding:5px; float:left; width:75px; height:75px;}
+
+#rnrAbout { width: 400px; display: inline; float: left; margin-right: 50px; text-align: justify; position:relative; left: 50px; top:0px;}
+
+#rnrAbout img {float: left; margin-top: 15px; margin-bottom: 0px; margin-right: 20px;}

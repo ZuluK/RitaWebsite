@@ -1,0 +1,143 @@
+
+
+/* BEGIN VARIOUS TAGS AND CLASSES */
+
+
+.adminBar {
+	background-color:#2d4122;
+}
+
+.tableLight {
+	background-color:#f4e2bd;
+}
+
+.tableDark {
+	background-color:#ecd7aa;
+}
+
+.tableHighlight {
+	background-color:#5f4f4b;
+}
+
+.white {
+	color:#FFFFFF;
+}
+
+
+/* **************** STYLES COPIED FROM OLD SITE ***************************/
+
+body {
+	background-color:#F1EEDF;
+	background-image:url(/images/header_top.gif);
+	background-repeat:no-repeat;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:12px;
+	color:#604E2D;
+	}
+	
+#footer {
+	z-index: 1;
+	background-image:url(/images/footer_background.gif);
+	width: 100%;
+	}
+
+P {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:12px;
+	color:#604E2D;
+	}
+
+H1 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#604E2D;
+	}
+	
+UL {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:12px;
+	color:#604E2D;
+	}
+
+	
+h2 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:15px;
+	color:#604E2D;
+	}
+	
+a {
+	color:#604E2D;
+	text-decoration:none;
+	border-bottom:1px dotted black; 
+	}
+
+a:hover {
+	text-decoration:none;
+	border-bottom:1px dotted black; 
+	color:#604E2D;
+	}
+
+a:visited {
+	text-decoration:none;
+	border-bottom:1px dotted black; 
+	color:#332200;
+	}
+
+a.noline {
+	text-decoration:none;
+	border-bottom:none;
+	}
+
+a.noline:hover {
+	text-decoration:none;
+	border-bottom:none;
+	}
+
+a.noline:visited {
+	text-decoration:none;
+	border-bottom:none;
+	}
+	
+.whitetext {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#FFFFFF;
+	font-size:14px;
+	}
+	
+.res_text {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#a4902e;
+	font-size:12px;
+	}
+	
+.style1 {
+	color: #a4902e;
+	font-weight: bold;
+}
+/****************************** END STYLES COPIED FROM OLD SITE ******************************/
+
+div.absoluteContainer {
+	position:relative;
+	height:23px;
+	padding-bottom:10px;
+}
+
+select#adminNavSelect {
+	position:absolute;
+	right:0px;
+	margin:5px;
+}
+
+.clear {
+	clear:both;
+}
+
+.center {
+	text-align:center;
+}
+
+.dark {
+	background-color:#CCC388;
+}
